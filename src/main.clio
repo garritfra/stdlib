@@ -1,0 +1,5 @@
+fn head lst:
+  lst -> Array.prototype.unshift
+
+fn tail lst:
+  1 -> lst.slice

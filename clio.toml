@@ -1,0 +1,18 @@
+title = "stdlib"
+description = ""
+version = "0.1.0"
+license = "MIT"
+main = "src/main.clio"
+authors = [ "Garrit Franke <garritfranke@gmail.com>" ]
+keywords = "stdlib, clio"
+
+[build]
+directory = "build"
+target = "node"
+
+[target.node]
+directory = "src"
+target = "node"
+
+[scripts]
+test = "No tests specified"
